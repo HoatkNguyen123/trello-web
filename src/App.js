@@ -1,40 +1,15 @@
+import React from 'react';
 import './App.scss';
+import AppBar from 'components/AppBar/AppBar.js';
+import BoardBar from 'components/BoardBar/BoardBar.js';
+import BoardContent from 'components/BoardContent/BoardContent.js';
 
 function App() {
 	return (
 		<div className="trello-master">
-			<nav className='navbar app'>App Bar</nav>
-			<nav className='navbar board'>Board Bar</nav>
-			<div className='board-columns'>
-				<div className='column'>
-					<header>header</header>
-					<ul>
-						<li>
-							<img src='./logo192.png' alt=''></img>
-							title: trello
-						</li>
-						<li>
-							what your's name
-						</li>
-						<li>
-							what your's name
-						</li>
-						<li>
-							what your's name
-						</li>
-						<li>
-							what your's name
-						</li>
-						<li>
-							what your's name
-						</li>
-						<li>
-							what your's name
-						</li>
-					</ul>
-					<footer>footer</footer>
-				</div>
-			</div>
+			<AppBar />
+			<BoardBar />
+			<BoardContent />
 		</div>
 	);
 }
