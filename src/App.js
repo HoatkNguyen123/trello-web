@@ -1,8 +1,8 @@
-import React from 'react';
-import './App.scss';
-import AppBar from 'components/AppBar/AppBar.js';
-import BoardBar from 'components/BoardBar/BoardBar.js';
-import BoardContent from 'components/BoardContent/BoardContent.js';
+import React from 'react'
+import './App.scss'
+import AppBar from 'components/AppBar/AppBar.js'
+import BoardBar from 'components/BoardBar/BoardBar.js'
+import BoardContent from 'components/BoardContent/BoardContent.js'
 
 function App() {
 	return (
@@ -11,7 +11,7 @@ function App() {
 			<BoardBar />
 			<BoardContent />
 		</div>
-	);
+	)
 }
 
-export default App;
+export default App

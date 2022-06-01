@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react'
 
-import './AppBar.scss';
+import './AppBar.scss'
 
 
 function AppBar() {
@@ -9,4 +9,4 @@ function AppBar() {
   )
 }
 
-export default AppBar;
+export default AppBar

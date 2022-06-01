@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react'
 
-import './BoardBar.scss';
+import './BoardBar.scss'
 
 
 function BoardBar() {
@@ -9,4 +9,4 @@ function BoardBar() {
   )
 }
 
-export default BoardBar;
+export default BoardBar
